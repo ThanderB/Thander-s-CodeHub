@@ -3,7 +3,7 @@ import math
 import matplotlib.pyplot as plt
 
 #data loading
-data = (r'C:\Users\HP\Desktop\AVO\Data.txt')
+data = (r'D:\AVO\Data.txt')
 data_load = np.loadtxt(data)
 
 #Define data column
