@@ -54,6 +54,8 @@ ax[1].set_ylim([1000,20])
 ax[2].set_xlabel('VS (m/s)')
 ax[2].set_xlim([350,520])
 ax[2].set_ylim([1000,0])
-
+ax[0].grid()
+ax[1].grid()
+ax[2].grid()
 plt.show()
 
