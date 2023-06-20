@@ -3,9 +3,7 @@ import pandas as pd
 import lasio
 import matplotlib.pyplot as plt
 from scipy.signal import lfilter
-import seaborn as sns
-from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LinearRegression
+
 
 #Load the LAS file
 las_read = lasio.read(r'C:\Users\HP\Desktop\AI\Sample_well_5.las')
