@@ -6,7 +6,7 @@ from scipy.signal import lfilter
 
 
 #Load the LAS file
-las_read = lasio.read(r'C:\Users\HP\Desktop\AI\Sample_well_5.las')
+las_read = lasio.read(r'D:\AI\Sample_well_5.las')
 #Show the 'Well' description of the loaded LAS file
 Header = las_read.sections['Well']
 #print(Header)
