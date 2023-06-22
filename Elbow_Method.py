@@ -1,3 +1,4 @@
+### Elbow Method for defining no of clusters###
 import numpy as np
 import pandas as pd
 import lasio
