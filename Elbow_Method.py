@@ -1,4 +1,4 @@
-### Elbow Method for defining no of clusters###
+### Elbow Method for defining no of clusters for Vp vs Density Plot ###
 import numpy as np
 import pandas as pd
 import lasio
