@@ -31,7 +31,7 @@ data = pd.concat([Vp_df,Density_df], axis=1)
 #Elbow Method for KMeans (Sum of Squared Error=SSE)
 SSE = {}
 for i in range(1, 5):
-    kmeans = KMeans(n_clusters = i, n_init= 4, init = 'k-means++', random_state = 20)
+    kmeans = KMeans(n_clusters = i, init = 'k-means++', random_state = 20)
     kmeans.fit(data)
     SSE[i] = kmeans.inertia_
 
