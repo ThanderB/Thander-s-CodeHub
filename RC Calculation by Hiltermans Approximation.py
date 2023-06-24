@@ -4,7 +4,7 @@ import math
 import matplotlib.pyplot as plt
 
 #data loading
-data = (r'C:\Users\HP\Desktop\AVO\Data.txt')
+data = (r'D:\AVO\Data.txt')
 data_load = np.loadtxt(data)
 
 #Define data column
@@ -43,7 +43,6 @@ for i in range(len(Vp)-1):
 RC = np.array(RC)
 RC_list = RC.tolist()
 RC_list_sort = np.sort(RC_list)
-print(RC)
 plt.stem(RC)
 plt.title(" RC by Hiltermans (2 Terms) Approximation")
 plt.show()
